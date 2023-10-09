@@ -1,0 +1,70 @@
+/* all styling for stretchout website  */
+
+:root {
+    /*colours  */
+
+    --background-clr: #1F2937;
+    --button-clr: #388256;
+    --quote-back-clr: #E5E7EB;
+    --logo-clr: #F9FAF8;
+    --info-header-clr: #1F2937;
+
+    /* font size */
+
+    --fs-large: 48px;
+    --fs-mediem: 36px;
+    --fs-logo: 24px;
+    --fs-extrasmall: 18px;
+
+    /* font-weight */
+
+    --fw-bold: 800;
+    --fw-light: 200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-color: var(--background-clr);
+    width: 100%;
+    height: 85vh;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+
+    font-family: 'Roboto', sans-serif;
+    /* background-color: white; */
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 40vw;
+
+}
+
+.logo {
+    font-size: var(--fs-logo);
+    color: var(--logo-clr);
+    letter-spacing: 1px;
+}
+
+.navbar ul li {
+    font-size: var(--fs-extrasmall);
+    color: var(--quote-back-clr);
+}
