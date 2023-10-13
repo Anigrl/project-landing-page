@@ -208,11 +208,21 @@ header .content span {
 }
 
 .services-box img {
-
-    border: 2px solid var(--button-clr);
+    flex: 1;
     border-radius: 9px;
-    padding: 1rem;
-    /* height:250px ; */
+    background-size: cover;
+    /* padding: 1rem; */
+     
+    transition: all 0.3s ease;
+   
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+.services-box img:hover{
+    transform: scale(0.975);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0);
+
+    
+
 }
 
 .services-box p {
